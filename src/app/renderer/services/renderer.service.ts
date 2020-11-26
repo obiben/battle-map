@@ -43,7 +43,7 @@ export class MapRenderer {
 
   private renderGrid() {
     const grid = this.data.grid();
-    this.context.strokeStyle = 'rgba(0, 0, 0, 0.5)';
+    this.context.strokeStyle = 'rgba(120, 255, 120, 0.8)';
     const path = new Path2D();
     for (let x = grid.start.x; x <= this.canvas.element.width; x += grid.size) {
       path.moveTo(x, 0);
