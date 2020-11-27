@@ -5,3 +5,4 @@ const state = (s: AppState) => s.map.grid;
 
 export const offset = createSelector(state, s => s.offset);
 export const size = createSelector(state, s => s.size);
+export const color = createSelector(state, s => s.color);

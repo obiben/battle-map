@@ -5,7 +5,7 @@
   <input type="number" min="10" max="200" [value]="size" (change)="onSizeChange($event)">
   <span class="suffix">px</span>
 </div>
-<!--
+
 <label>Offset</label>
 <div class="group">
   <input type="number" min="-200" max="200" [value]="offset.x" (change)="onOffsetChange($event.target.value, grid.offset.y)">
@@ -14,4 +14,14 @@
 <div class="group">
   <input type="number" min="-200" max="200" [value]="offset.y" (change)="onOffsetChange(grid.offset.x, $event.target.value)">
   <span class="suffix">y</span>
-</div>-->
+</div>
+<div class="group">
+  Grid color
+  <select [value]="color" (change)="onColorChange($event.target.value)">
+    <option value="rgba(255, 255, 255, 0.8)">White</option>
+    <option value="rgba(0, 0, 0, 0.8)">Black</option>
+    <option value="rgba(255, 255, 255, 0.2)">Translucent White</option>
+    <option value="rgba(0, 0, 0, 0.2)">Translucent Black</option>
+    <option value="rgba(120, 255, 120, 0.8)">Green</option>
+  </select>
+</div>

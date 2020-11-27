@@ -10,10 +10,12 @@ import { fetchImage } from '@bm/utils';
 export class MapSettingsComponent {
   size: number;
   offset: Point;
+  color: string;
 
   constructor(public grid: MapGrid, private canvas: MapCanvas) {
     this.grid.size$.subscribe(s => this.size = s);
     this.grid.offset$.subscribe(o => this.offset = o);
+    this.grid.color$.subscribe(o => this.color = o);
   }
 
   onLoadImageClick() {
@@ -27,6 +29,10 @@ export class MapSettingsComponent {
 
   onSizeChange(e: Event) {
     this.grid.setSize(Number((e.target as HTMLInputElement).value));
+  }
+
+  onColorChange(color: string) {
+    this.grid.setColor(color);
   }
 
   onOffsetChange(x: string, y: string) {

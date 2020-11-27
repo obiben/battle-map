@@ -12,17 +12,21 @@ import { MapController } from './controller.service';
 export class MapGrid {
   public size: number;
   public offset: Point;
+  public color: string;
 
   public readonly size$ = this.store.pipe(select(Grid.size));
   public readonly offset$ = this.store.pipe(select(Grid.offset));
+  public readonly color$ = this.store.pipe(select(Grid.color));
 
   constructor(private controller: MapController, private canvas: MapCanvas, private store: Store<AppState>) {
     this.size$.subscribe(s => this.size = s);
     this.offset$.subscribe(o => this.offset = o);
+    this.color$.subscribe(o => this.color = o);
   }
 
   setSize(size: number) { this.store.dispatch(new Grid.SetSize(size)); }
   setOffset(offset: Point) { this.store.dispatch(new Grid.SetOffset(offset)); }
+  setColor(color: string) { this.store.dispatch(new Grid.SetColor(color)); }
 
   cellFromMouse(e: MouseEvent): Point {
     const point = relativeMouse(e, this.canvas.element);

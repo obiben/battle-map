@@ -13,6 +13,13 @@ export class SetSize implements Action {
   constructor(public size: number) { }
 }
 
+export class SetColor implements Action {
+  public static readonly TYPE = '[Grid] Set Color';
+  readonly type = SetColor.TYPE;
+  constructor(public color: string) { }
+}
+
 export type GridActions =
   SetOffset |
-  SetSize;
+  SetSize |
+  SetColor;

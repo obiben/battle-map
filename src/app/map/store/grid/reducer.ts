@@ -6,6 +6,7 @@ export function gridReducer(state: GridState = initialState, action: Actions.Gri
   switch (action.type) {
     case Actions.SetOffset.TYPE: return { ...state, offset: action.offset };
     case Actions.SetSize.TYPE: return { ...state, size: action.size };
+    case Actions.SetColor.TYPE: return { ...state, color: action.color };
     default: return state;
   }
 }

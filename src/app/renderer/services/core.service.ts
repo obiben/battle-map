@@ -37,7 +37,8 @@ export class RenderCore {
       x: this.boundCoordinate(this.panX(this.scaleN(this.mapGrid.offset.x) + size)),
       y: this.boundCoordinate(this.panY(this.scaleN(this.mapGrid.offset.y) + size)),
     }
-    return { start, size }
+    const color = this.mapGrid.color;
+    return { start, size, color }
   }
 
   creatures(): CreatureRenderData[] {
