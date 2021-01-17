@@ -27,7 +27,10 @@ export class TokenDialogComponent {
     return this.tokenGroups.map(group => ({
       name: group.name,
       tokens: group.tokens.filter(t => {
-        if (t.name.toUpperCase().includes(this.searchText.toUpperCase())) { return true; }
+        if (
+          t.name.toUpperCase().includes(this.searchText.toUpperCase())
+          || t.type.toUpperCase().includes(this.searchText.toUpperCase())
+        ) { return true; }
         // TODO: Tags and environments && types.
         return false;
       })

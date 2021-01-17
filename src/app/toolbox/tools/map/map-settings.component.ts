@@ -35,7 +35,7 @@ export class MapSettingsComponent {
     this.grid.setColor(color);
   }
 
-  onOffsetChange(x: string, y: string) {
+  onOffsetChange(x: any, y: any) {
     this.grid.setOffset({ x: Number(x), y: Number(y) });
   }
 
