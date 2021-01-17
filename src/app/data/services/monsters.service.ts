@@ -13,10 +13,10 @@ export class Monsters {
   ) { }
 
   get(): Observable<Monster[]> {
-    return this.http.get<Monster[]>(this.baseUrl + 'data/monsters.json');
+    return this.http.get<Monster[]>(this.baseUrl + 'assets/monsters.json');
   }
 
   resolveImage(url: string): string {
-    return this.baseUrl + 'images/tokens/' + url.replace(/.jpe?g/, '.png');
+    return this.baseUrl + 'assets/images/tokens/' + url;
   }
 }

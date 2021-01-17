@@ -14,7 +14,7 @@ const SERVICES = [
     HttpClientModule
   ],
   providers: [
-    { provide: DND_BASE_URL, useValue: 'https://twolfe.co.uk/dnd/' },
+    { provide: DND_BASE_URL, useValue: 'http://obiben.com/' },
     ...SERVICES,
   ],
 })
