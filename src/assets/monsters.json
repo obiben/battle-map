@@ -1,5 +1,133 @@
 [
     {
+        "name": "Holg",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "holg.png"
+        }
+    },
+    {
+        "name": "Mathusalem",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "matt.png"
+        }
+    },
+    {
+        "name": "Battista",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "michaud.png"
+        }
+    },
+    {
+        "name": "Belba",
+        "type": "_player",
+        "size": "small",
+        "image": {
+            "url":  "belba.png"
+        }
+    },
+    {
+        "name": "Brom",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "brom.png"
+        }
+    },
+    {
+        "name": "Dante",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "dante.png"
+        }
+    },
+    {
+        "name": "Elliot",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "elissard.png"
+        }
+    },
+    {
+        "name": "Raka",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "raka.png"
+        }
+    },
+    {
+        "name": "Riah",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "riah.png"
+        }
+    },
+    {
+        "name": "Scarpin",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "scarpin.png"
+        }
+    },
+    {
+        "name": "Sinara",
+        "type": "_player",
+        "size": "small",
+        "image": {
+            "url":  "sinara.png"
+        }
+    },
+    {
+        "name": "Tibum",
+        "type": "_player",
+        "size": "small",
+        "image": {
+            "url":  "tibum.png"
+        }
+    },
+    {
+        "name": "Tristan",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "tristan.png"
+        }
+    },
+    {
+        "name": "S.A.M.",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "sam.png"
+        }
+    },
+    {
+        "name": "Feneste",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "feneste.png"
+        }
+    },
+    {
+        "name": "Bolrick",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "bolrick.png"
+        }
+    },
+    {
         "abilities": {
             "charisma": 11,
             "constitution": 10,
