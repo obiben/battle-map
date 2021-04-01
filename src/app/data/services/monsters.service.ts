@@ -13,7 +13,7 @@ export class Monsters {
   ) { }
 
   get(): Observable<Monster[]> {
-    return this.http.get<Monster[]>(this.baseUrl + 'assets/monsters.json');
+    return this.http.get<Monster[]>('../../../../assets/monsters.json');
   }
 
   resolveImage(url: string): string {
