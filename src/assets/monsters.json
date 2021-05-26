@@ -8,59 +8,11 @@
         }
     },
     {
-        "name": "Mathusalem",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "matt.png"
-        }
-    },
-    {
-        "name": "Battista",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "michaud.png"
-        }
-    },
-    {
         "name": "Belba",
         "type": "_player",
         "size": "small",
         "image": {
             "url":  "belba.png"
-        }
-    },
-    {
-        "name": "Brom",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "brom.png"
-        }
-    },
-    {
-        "name": "Dante",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "dante.png"
-        }
-    },
-    {
-        "name": "Elliot",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "elissard.png"
-        }
-    },
-    {
-        "name": "Raka",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "raka.png"
         }
     },
     {
@@ -72,11 +24,51 @@
         }
     },
     {
+        "name": "Cock",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "cock.png"
+        }
+    },
+    {
         "name": "Scarpin",
         "type": "_player",
         "size": "medium",
         "image": {
             "url":  "scarpin.png"
+        }
+    },
+    {
+        "name": "Oso",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "oso.png"
+        }
+    },
+    {
+        "name": "Matt",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "matt.png"
+        }
+    },
+    {
+        "name": "Brom",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "brom.png"
+        }
+    },
+    {
+        "name": "Raka",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "raka.png"
         }
     },
     {
@@ -93,6 +85,38 @@
         "size": "small",
         "image": {
             "url":  "tibum.png"
+        }
+    },
+    {
+        "name": "Astrid",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "astrid.png"
+        }
+    },
+    {
+        "name": "Battista",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "michaud.png"
+        }
+    },
+    {
+        "name": "Dante",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "dante.png"
+        }
+    },
+    {
+        "name": "Elliot",
+        "type": "_player",
+        "size": "medium",
+        "image": {
+            "url":  "elissard.png"
         }
     },
     {
@@ -125,14 +149,6 @@
         "size": "medium",
         "image": {
             "url":  "bolrick.png"
-        }
-    },
-    {
-        "name": "Astrid",
-        "type": "_player",
-        "size": "medium",
-        "image": {
-            "url":  "astrid.png"
         }
     },
     {
